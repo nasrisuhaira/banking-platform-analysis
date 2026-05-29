@@ -1,0 +1,34 @@
+S-01 High
+Secure login to the portal
+As a loan applicant, I want to log in securely using my credentials so that only I can access my application and personal data.
+Acceptance criteria
+User can log in with email + password or OTP via mobile number
+Failed login after 3 attempts locks the account for 15 minutes
+Session expires after 30 minutes of inactivity
+JWT token is issued on successful authentication
+
+US-02 High
+Multi-factor authentication
+As a loan applicant, I want to verify my identity with a second factor so that my account is protected even if my password is compromised.
+Acceptance criteria
+OTP sent via SMS or email within 30 seconds
+OTP expires after 5 minutes
+User is notified of new login attempts from unrecognised devices
+
+US-03 High
+Submit identity documents
+As a loan applicant, I want to upload my government-issued ID so that the system can verify my identity before processing my application.
+Acceptance criteria
+Supports passport, national ID, and driver's licence uploads
+Accepted formats: JPG, PNG, PDF — max 5 MB per file
+Uploaded documents are scanned for tampering or forgery
+User receives confirmation when documents are successfully received
+
+US-04 High
+Automated KYC decision
+As a compliance officer, I want KYC checks to run automatically via third-party APIs so that we can process applications faster without manual review for straightforward cases.
+Acceptance criteria
+KYC API returns a pass/fail decision within 60 seconds
+On failure, the application is terminated and the applicant is notified
+All KYC API responses are logged with timestamps for audit
+Edge cases flagged for manual review rather than auto-rejection
