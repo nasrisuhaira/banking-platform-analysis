@@ -1,0 +1,37 @@
+Project Overview
+
+A leading retail bank wanted to modernize its loan onboarding journey by replacing manual onboarding with a fully digital customer onboarding and loan processing platform.
+
+The objective was to:
+
+Reduce onboarding time
+Improve customer experience
+Automate KYC validation
+Integrate with credit scoring systems
+Enable real-time application tracking
+Support multilingual customer communication including French-speaking users
+Business Problem
+
+The existing process had:
+
+Manual document verification
+Delayed loan approvals
+Duplicate customer records
+High drop-off rates
+No real-time status visibility
+Multiple disconnected systems
+
+Customers had to visit branches physically for many onboarding activities.
+
+Proposed Solution
+
+A centralized digital onboarding platform integrating:
+
+Customer Portal
+Mobile Application
+Identity Verification Service
+Credit Bureau APIs
+Loan Management System
+CRM Platform
+Notification Service
+Document Management System
